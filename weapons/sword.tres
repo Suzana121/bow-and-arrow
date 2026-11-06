@@ -1,0 +1,12 @@
+[gd_resource type="Resource" script_class="Weapons" load_steps=3 format=3 uid="uid://v8tjv6iw30pq"]
+
+[ext_resource type="Script" path="res://weapons/weapons.gd" id="1_56c6d"]
+[ext_resource type="PackedScene" uid="uid://dxc8taankngix" path="res://weapons/arming_sword.tscn" id="2_7fpkd"]
+
+[resource]
+script = ExtResource("1_56c6d")
+name = &"sword"
+damage = 0.0
+max_ammo = 0
+weapon_model = ExtResource("2_7fpkd")
+weapon_postion = Vector3(0, 0, 0)

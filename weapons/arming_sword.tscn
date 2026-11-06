@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3 uid="uid://dxc8taankngix"]
+
+[ext_resource type="PackedScene" uid="uid://4v20dmyngw3d" path="res://weapons/Low Poly Weapon Pack with Image Texture - by Kickin It Studios (1)/Weapons for Itch with image texture.fbx_Arming_Sword.fbx" id="1_62h1n"]
+
+[node name="Weapons for Itch with image texture_fbx_Arming_Sword" instance=ExtResource("1_62h1n")]
+
+[node name="Arming Sword" parent="." index="0"]
+transform = Transform3D(91.7123, 15.629, -36.6686, 30.3578, 32.2279, 89.6647, 25.8312, -93.3654, 24.8123, 0.669017, -0.154684, -0.624907)
